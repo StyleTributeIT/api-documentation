@@ -26,10 +26,10 @@
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
-    **Content:** 
-    ```
-    {
+  **Code:** 200 <br />
+  **Content:** <br />
+  ```
+  {
 	"id": "21190",
 	"sku": "SVSGCL18202",
 	"name": "Floral Petal Dress",
@@ -106,8 +106,7 @@
 	"models": [
 
 	]
-}
-    ```
+}```
 
 * **Success Response Description:**<br />
   **NOTE: Please only used attributes that is shown in below description**
@@ -148,17 +147,17 @@
 
 * **Error Response:**
 
-  * **Code:** 400 BAD REQUEST <br />
+  **Code:** 400 BAD REQUEST <br />
   Happen when the urlpath given was invalid or sku was invalid
 
 * **Getting Url Path:** <br />
   
   - Urlpath can be get from styletribute website, 
-    - When we go to any product detail page as shown in image below
+    - When we go to any product detail page as shown in image 1.jpg
     - The path shall normally looks like - https://styletribute.com/product/floral-petal-dress.html
     - Text after the "/product/" will be the urlpath, in this case is floral-petal-dress.html
   
-  - Sku can be get from styletribute website as shown in image below
+  - Sku can be get from styletribute website as shown in image 2.jpg
   
 * **Sample Call:** <br />
   **By path**
