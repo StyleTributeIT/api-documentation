@@ -153,17 +153,19 @@
 * **Getting Url Path:** <br />
   
   - Urlpath can be get from styletribute website, 
-    - When we go to any product detail page as shown in image 1.jpg
+    - When we go to any product detail page as shown in image below
+    ![alt text](https://raw.githubusercontent.com/StyleTributeIT/api-documentation/master/1.jpg)
     - The path shall normally looks like - https://styletribute.com/product/floral-petal-dress.html
     - Text after the "/product/" will be the urlpath, in this case is floral-petal-dress.html
   
-  - Sku can be get from styletribute website as shown in image 2.jpg
+  - Sku can be get from styletribute website as shown in image below
+  ![alt text](https://raw.githubusercontent.com/StyleTributeIT/api-documentation/master/2.jpg)
   
 * **Sample Call:** <br />
   **By path**
   ```javascript
     $.ajax({
-      url: "/product/path/floral-petal-dress.html",
+      url: "https://api.styletribute.com/product/path/floral-petal-dress.html",
       dataType: "json",
       type : "GET",
       success : function(r) {
@@ -175,7 +177,7 @@
   **By sku**
   ```javascript
     $.ajax({
-      url: "/product/sku/SVSGCL18202",
+      url: "https://api.styletribute.com/product/sku/SVSGCL18202",
       dataType: "json",
       type : "GET",
       success : function(r) {
