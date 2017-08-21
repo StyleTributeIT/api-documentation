@@ -28,8 +28,7 @@
 
   * **Code:** 200 <br />
     **Content:** 
-    ```{
-  "id": "21190",
+    ```{"id": "21190",
   "sku": "SVSGCL18202",
   "name": "Floral Petal Dress",
   "type": "VIP",
@@ -105,10 +104,9 @@
   ],
   "models": [
     
-  ]
-}```
+  ]}```
 
-* **Success Response Description:**
+* **Success Response Description:**<br />
   **NOTE: Please only used attributes that is shown in below description**
 
 ```
@@ -119,13 +117,11 @@
   "oldPrice" => MSRP (manufacturer's suggested retail price) price
   "saleDiscount" => Current sale of this product in our website
   "condition" => Our condition guideline which are
-  ```
-  BRAND NEW (10 out of 10)	The item has never been worn or used and is as good as brand new.
-  EXCELLENT (8-9 out of 10)	The item has barely been used or worn and has minimal signs of usage.
-  VERY GOOD (7 out of 10)	The item has been used or worn and has some signs of wear but it still looks great.
-  GOOD (6 out of 10)	The item has been used or worn and shows moderate signs of wear but it still looks great.
-  GENTLY LOVED (5 out of 10)	The item has obvious signs of wear (hard scratches, stains). However, we have chosen to list the item due to its special character.
-  ```   
+  - BRAND NEW (10 out of 10)	The item has never been worn or used and is as good as brand new.
+  - EXCELLENT (8-9 out of 10)	The item has barely been used or worn and has minimal signs of usage.
+  - VERY GOOD (7 out of 10)	The item has been used or worn and has some signs of wear but it still looks great.
+  - GOOD (6 out of 10)	The item has been used or worn and shows moderate signs of wear but it still looks great.
+  - GENTLY LOVED (5 out of 10)	The item has obvious signs of wear (hard scratches, stains). However, we have chosen to list the item       due to its special character.   
   "size" => Product size
   "sizing" => Product sizing can be either shoesize for shoe size or size for cloth size
   "styles" => Product styles
@@ -150,7 +146,7 @@
   * **Code:** 400 BAD REQUEST <br />
   Happen when the urlpath given was invalid
 
-* **Getting Url Path:**
+* **Getting Url Path:** <br />
   urlpath can be get from styletribute website, 
   - When we go to any product detail page as shown in image below
   - The path shall normally looks like - https://styletribute.com/product/floral-petal-dress.html
@@ -158,8 +154,8 @@
   
   sku can be get from styletribute website as shown in image below
   
-* **Sample Call:**
-  By path
+* **Sample Call:** <br />
+  **By path**
   ```javascript
     $.ajax({
       url: "/product/path/floral-petal-dress.html",
@@ -171,7 +167,7 @@
     });
   ```
   
-  By sku
+  **By sku**
   ```javascript
     $.ajax({
       url: "/product/sku/SVSGCL18202",
