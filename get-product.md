@@ -28,7 +28,7 @@
 
   * **Code:** 200 <br />
     **Content:** 
-    ```json
+    ```
     {
 	"id": "21190",
 	"sku": "SVSGCL18202",
