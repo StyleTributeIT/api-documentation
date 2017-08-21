@@ -28,7 +28,7 @@
 
   * **Code:** 200 <br />
     **Content:** 
-    `{
+    ```{
   "id": "21190",
   "sku": "SVSGCL18202",
   "name": "Floral Petal Dress",
@@ -106,12 +106,12 @@
   "models": [
     
   ]
-}`
+}```
 
 * **Success Response Description:**
-NOTE: Please only used attributes that is shown in below description
+  **NOTE: Please only used attributes that is shown in below description**
 
-`{
+```
   "sku" => SKU of the product
   "name" => Product Name
   "urlpath" => Url Path of the product
@@ -143,7 +143,7 @@ NOTE: Please only used attributes that is shown in below description
     }
   ]
   "models" => Product models list
-}`
+```
 
 * **Error Response:**
 
